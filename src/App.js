@@ -1,10 +1,8 @@
 
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <h1>sammy muya njomo</h1>
+      <h1 className='text-sm text-slate-500'>sammy muya njomo</h1>
     </div>
   );
 }
