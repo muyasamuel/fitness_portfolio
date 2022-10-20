@@ -8,7 +8,7 @@ function HomePage() {
                 <p>FAQS</p>
                 <p>SITEMAP</p>
             </div>
-            <h2> CALL ME : <span className='text-yellow-300 ml-2'> 0742166832 </span></h2>
+            <h2> CALL ME : <span className='text-yellow-300 ml-2'> 0742-166-832 </span></h2>
 
         </div>
         <div className='bg-gray-800 text-white h-32 w-screen  flex items-center justify-around '>
