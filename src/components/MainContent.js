@@ -7,13 +7,13 @@ import { BiMessageDetail } from "react-icons/bi";
 
 function MainContent() {
   return (
-    <div className=' bg-black w-screen h-[42rem]   '>
-      <div className='w-[78rem] mx-auto grid grid-cols-2 gap-10  '>
-        <div className=' h-96 text-white border-r-2  '>
-            <h2 className='font-extrabold uppercase tracking-widest' >News Update <span className='text-blue-500'> \\\ </span></h2>
+    <div className=' bg-black w-screen h-[42rem]    '>
+      <div className='w-[78rem] mx-auto grid grid-cols-2 gap-10   '>
+        <div className=' h-96 text-white border-r-2 mt-10  '>
+            <h2 className='font-extrabold uppercase tracking-widest' >News Update <span className='text-red-500'> \\\ </span></h2>
             <div className='space-y-3 mt-3'>
                 <div className='  flex  space-x-5     '>
-                    <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
+                    <img className='h-36 w-64 border-2 border-amber-400' src='https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
                         <h2 className='font-extrabold uppercase tracking-widest'>LOREM IPSUM</h2>
                         <div className='flex items-center space-x-2'>
@@ -26,7 +26,7 @@ function MainContent() {
                     </div>
                 </div>
                 <div className=' flex space-x-5  '>
-                    <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/3837293/pexels-photo-3837293.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
+                    <img className='h-36 w-64 border-2 border-amber-400' src='https://images.pexels.com/photos/3837293/pexels-photo-3837293.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
                         <h2 className='font-extrabold uppercase tracking-widest'> LOREM IPSUM</h2>
                         <div className='flex items-center space-x-2'>
@@ -40,7 +40,7 @@ function MainContent() {
                     </div>
                 </div>
                 <div className='  flex  space-x-5  '>
-                    <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/4047003/pexels-photo-4047003.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
+                    <img className='h-36 w-64 border-2 border-amber-400' src='https://images.pexels.com/photos/4047003/pexels-photo-4047003.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
                         <h2 className='font-extrabold uppercase tracking-widest'> LOREM IPSUM</h2>
                         <div className='flex items-center space-x-2'>
@@ -55,11 +55,11 @@ function MainContent() {
                 </div>
             </div>
             
-            <button className='bg-blue-700 hover:bg-blue-900 py-3 px-8 mt-9 rounded-xl '>VIEW ALL NEWS</button>
+            <button  className='bg-red-500 hover:bg-red-700  py-2 px-8 mt-10 rounded-2xl  '>VIEW ALL NEWS</button>
         </div>
-        <div className='text-white h-96 space-y-3 ml-5'>
+        <div className='text-white h-96 space-y-3 ml-5 mt-10'>
             <div>
-                <h1 className='font-extrabold uppercase tracking-widest'>Categories  <span className='text-blue-500'> \\\ </span></h1>
+                <h1 className='font-extrabold uppercase tracking-widest'>Categories  <span className='text-red-500'> \\\ </span></h1>
                 <div className='mt-6 leading-9'>
                     <div className='flex items-center '><IoIosArrowDropright className='mr-3 h-6 w-6 text-amber-400'/> Lorem ipsum dolor sit amet</div>
                     <div className='flex items-center '><IoIosArrowDropright className='mr-3 h-6 w-6 text-amber-400'/> sed do eiusmod tempor incididunt ut</div>
@@ -72,7 +72,7 @@ function MainContent() {
                 </div>
             </div>
             <div className='mt-8'>
-                <h1 className='font-extrabold uppercase tracking-widest'>Testimonials  <span className='text-blue-500'> \\\ </span></h1>
+                <h1 className='font-extrabold uppercase tracking-widest'>Testimonials  <span className='text-red-500'> \\\ </span></h1>
                  <p className='mt-4 tracking-wide '> <FaQuoteLeft className='h-12 w-6' />  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -81,7 +81,7 @@ function MainContent() {
                      esse cillum dolore eu fugiat nulla pariatur.....</p>
 
             </div>
-            <button className='bg-blue-700 hover:bg-blue-900 py-2 px-8 mt-10  '>VIEW ALL NEWS</button>
+            <button className='bg-red-500 hover:bg-red-700  py-2 px-8 mt-10 rounded-2xl  '>VIEW Testimonials</button>
         </div>
         
         </div>
