@@ -1,4 +1,5 @@
 import HomePage from "./components/HomePage";
+import Main from "./components/Main";
 import Tweets from "./components/Tweets";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div >
      <HomePage />
      <Tweets />
+     <Main />
     </div>
   );
 }
