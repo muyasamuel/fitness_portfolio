@@ -3,7 +3,7 @@ import React from 'react'
 function HomePage() {
   return (
     <>
-        <div className='h-12 w-screen bg-slate-900 text-white flex items-center justify-around '>
+        <div className='h-12 w-full bg-slate-900 text-white flex items-center justify-around '>
             <div  className='flex space-x-5'>
                 <p>FAQS</p>
                 <p>SITEMAP</p>
