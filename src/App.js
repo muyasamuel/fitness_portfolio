@@ -1,3 +1,4 @@
+import Summary from "./components/Summary";
 import HomePage from "./components/HomePage";
 import Main from "./components/Main";
 import MainContent from "./components/MainContent";
@@ -10,6 +11,7 @@ function App() {
      <Tweets />
      <Main />
      <MainContent />
+     <Summary />
     </div>
   );
 }
