@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoIosArrowDropright } from "react-icons/io"
 import { FaQuoteLeft } from 'react-icons/fa';
+import { CiClock1 } from "react-icons/ci";
+import { BiMessageDetail } from "react-icons/bi";
 
 
 function MainContent() {
@@ -13,24 +15,41 @@ function MainContent() {
                 <div className='  flex  space-x-5 p-4  '>
                     <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
-                        <h2>LOREM IPSUM</h2>
-                        <h3>july 24</h3>
+                        <h2 className='font-extrabold uppercase tracking-widest'>LOREM IPSUM</h2>
+                        <div className='flex items-center space-x-2'>
+                            <CiClock1 />
+                            <h3>july 24,2023</h3>
+                            <BiMessageDetail />
+                            <p>0</p>
+                        </div> 
                         <p> lorem ipsum am am here learning react</p>
                     </div>
                 </div>
                 <div className=' flex space-x-5 p-4 '>
                     <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/3837293/pexels-photo-3837293.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
-                        <h2> LOREM IPSUM</h2>
-                        <h3>july 24</h3>
+                        <h2 className='font-extrabold uppercase tracking-widest'> LOREM IPSUM</h2>
+                        <div className='flex items-center space-x-2'>
+                            <CiClock1 />
+                            <h3>july 24,2023</h3>
+                            <BiMessageDetail />
+                            <p>0</p>
+
+                        </div> 
                         <p> lorem ipsum am am here learning react</p>
                     </div>
                 </div>
                 <div className='  flex  space-x-5 p-4 '>
                     <img className='h-36 w-64 border-2 border-red-400' src='https://images.pexels.com/photos/4047003/pexels-photo-4047003.jpeg?auto=compress&cs=tinysrgb&w=1600' alt='' />
                     <div>
-                        <h2> LOREM IPSUM</h2>
-                        <h3>july 24</h3>
+                        <h2 className='font-extrabold uppercase tracking-widest'> LOREM IPSUM</h2>
+                        <div className='flex items-center space-x-2'>
+                            <CiClock1 />
+                            <h3>july 24,2023</h3>
+                            <BiMessageDetail />
+                            <p>0</p>
+
+                        </div> 
                         <p> lorem ipsum am am here learning react</p>
                     </div>
                 </div>
