@@ -1,9 +1,9 @@
 import React from 'react'
-import MainContent from './MainContent';
+
 
 function Main() {
   return (
-    <div className='h-screen w-screen bg-black'>
+    <div className=' h-96 w-screen bg-black'>
         <div className='flex items-center justify-center space-x-10 w-full h-96'>
             
         <div className='w-96 h-60 bg-slate-300 text-white rounded-lg p-5'>
@@ -21,7 +21,7 @@ function Main() {
       
             
         </div>
-        <MainContent />
+        
         
     </div>
   )

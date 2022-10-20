@@ -1,5 +1,6 @@
 import HomePage from "./components/HomePage";
 import Main from "./components/Main";
+import MainContent from "./components/MainContent";
 import Tweets from "./components/Tweets";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
      <HomePage />
      <Tweets />
      <Main />
+     <MainContent />
     </div>
   );
 }
