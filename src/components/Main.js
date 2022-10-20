@@ -1,4 +1,5 @@
 import React from 'react'
+import MainContent from './MainContent';
 
 function Main() {
   return (
@@ -17,9 +18,10 @@ function Main() {
             <h1 className='text-3xl uppercase '>Getting <br/><span className='font-extrabold ml-3 '>Started</span></h1>
             <p className='mt-4 leading-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
         </div>
-       
+      
             
         </div>
+        <MainContent />
         
     </div>
   )
