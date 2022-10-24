@@ -2,16 +2,16 @@ import React from 'react'
 
 function HomePage() {
   return (
-    <>
+    <div className='w-full overflow-x-hidden'>
         <div className='h-12 w-full bg-gray-700 text-white flex items-center justify-around '>
-            <div  className='flex space-x-5'>
+            <div  className='flex space-x-5 overflow-hidden'>
                 <p>FAQS</p>
                 <p>SITEMAP</p>
             </div>
             <h2> CALL ME : <span className='text-red-500 ml-2'> 0742-166-832 </span></h2>
 
         </div>
-        <div className='bg-slate-100  h-24 w-screen  flex items-center justify-around '>
+        <div className='bg-slate-100  h-24 w-full  flex items-center justify-around '>
             <div>
                 <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold  '> SAM <span className='text-red-500'>NJOMO</span></h1>
                 <p className='tracking-widest text-slate-900'>PERSONAL TRAINER</p>
@@ -28,7 +28,7 @@ function HomePage() {
             </div>
 
         </div>
-        <div className=' relative h-[47rem] w-screen bg-[url("https://images.pexels.com/photos/8874550/pexels-photo-8874550.jpeg?auto=compress&cs=tinysrgb&w=1600")] bg-cover  bg-right'>
+        <div className=' relative h-[47rem] w-full bg-[url("https://images.pexels.com/photos/8874550/pexels-photo-8874550.jpeg?auto=compress&cs=tinysrgb&w=1600")] bg-cover  bg-right'>
             <div className=' w-[30rem] text-white absolute top-52 right-14 '>
                 <h1 className='text-3xl md:text-5xl lg:text-6xl tracking-wider font-black'><span className='text-red-500 font-light'>TRANSFORM </span>YOUR LIFE...</h1>
                 <p className='leading-4 md:leading-6 lg:leading-8 mt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -42,7 +42,7 @@ function HomePage() {
             </div>
  
         </div>
-    </>
+    </div>
   )
 }
 
