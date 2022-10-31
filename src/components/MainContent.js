@@ -7,7 +7,7 @@ import { BiMessageDetail } from "react-icons/bi";
 
 function MainContent() {
   return (
-    <div className=' bg-black w-screen overflow-hidden  h-auto md:h-[42rem]    '>
+    <div className=' bg-black w-screen overflow-hidden  h-auto md:h-[42rem] lg:h-[52rem]    '>
       <div className='w-[78rem] mx-auto  grid grid-rows-2 py-12 px-10 my-4 space-y-28 md:grid-cols-2 gap-10   '>
         <div className=' h-96 text-white border-r-2 mt-10  '>
             <h2 className='font-extrabold uppercase tracking-widest' >News Update <span className='text-red-500'> \\\ </span></h2>
@@ -57,7 +57,7 @@ function MainContent() {
             
             <button  className='bg-red-500 hover:bg-red-700  py-2 px-8 mt-10 rounded-2xl  '>VIEW ALL NEWS</button>
         </div>
-        <div className='text-white h-96 space-y-3 ml-5 mt-10'>
+        <div className='text-white h-96 space-y-3 ml-5  '>
             <div>
                 <h1 className='font-extrabold uppercase tracking-widest'>Categories  <span className='text-red-500'> \\\ </span></h1>
                 <div className='mt-6 leading-9'>
